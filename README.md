@@ -11,5 +11,3 @@ A análise foi desenvolvida com base no conjunto de dados **“IBM HR Analytics 
 * **Dicionário de Dados:** Para uma melhor interpretação de cada variável, um dicionário de dados detalhado foi criado, servindo como guia durante toda a análise.
 * **Limpeza e Preparação de Dados:** Utilizei o SQL Server para a limpeza, preparação e análise exploratória dos dados.
 
-### **Próximos Passos**
-Agora, podemos seguir para as seções de **"Principais Insights e KPIs"** e **"Visualizações do Dashboard"**. O que você acha?
