@@ -81,6 +81,32 @@ As consultas realizadas no SQL Server permitiram extrair os seguintes insights p
 * **Gráfico: Média de Equilíbrio de Vida por Rotatividade**
     * **Insight:** O equilíbrio entre trabalho e vida pessoal (`WorkLifeBalance`) também afeta a decisão de sair. A média de equilíbrio é ligeiramente menor para os funcionários que saíram (2,7) do que para os que ficaram (2,8), reforçando a ideia de que a qualidade de vida no trabalho é importante.
 
+### **5. Insights e Recomendações**
+A análise dos dados de rotatividade permitiu identificar os principais fatores de risco e sugerir ações estratégicas para a gestão de pessoas.
+
+#### **Perguntas Norteadoras de Negócio & Respostas**
+
+**1. Qual perfil tem maior risco de rotatividade?**
+* **Resumo:** O perfil com maior risco de saída são os funcionários com baixa satisfação no trabalho, que realizam horas extras de forma consistente e estão em cargos com remuneração inicial, como `Sales Representative`.
+
+**2. Quais fatores (salário, idade, overtime etc.) mais influenciam na decisão de sair?**
+* **Horas Extras (`OverTime`):** Este é um dos ofensores mais significativos. A análise mostrou que **53,59% dos funcionários que saíram faziam horas extras**, em comparação com apenas 23,44% dos que ficaram. Isso aponta para a sobrecarga de trabalho como um fator crítico.
+* **Satisfação no Trabalho:** Há uma clara relação. A média de satisfação dos que saíram é consistentemente menor do que a dos que permaneceram, sugerindo que o engajamento e a qualidade do ambiente de trabalho são determinantes.
+* **Salário:** O salário não é um fator isolado, mas a diferença salarial por cargo é relevante. Em posições como `Sales Representative`, a remuneração de quem sai é, em média, mais baixa.
+
+**3. Qual departamento/cargo merece atenção imediata?**
+* O departamento de **Vendas (`Sales`)** é a área mais crítica. A taxa de rotatividade é elevada e, dentro dele, o cargo de `Sales Representative` é o mais afetado pela combinação de salários mais baixos e outros fatores de insatisfação.
+
+**4. Há padrão na duração do tempo de casa antes da saída?**
+* Sim, a análise revela um padrão muito claro: o **primeiro ano de empresa é o período de maior risco**. O pico de saídas ocorre com funcionários que têm apenas um ano de casa, o que indica uma necessidade de reforçar programas de integração, acompanhamento e engajamento nos primeiros meses.
+
+#### **Recomendações Acionáveis**
+Com base nos insights, as seguintes políticas e programas são recomendados:
+
+* **Controle de Horas Extras:** Implementar uma política rigorosa de monitoramento e compensação de horas extras para evitar a sobrecarga de trabalho, especialmente em departamentos de alto risco como Vendas.
+* **Programas de Satisfação e Engajamento:** Desenvolver programas de satisfação e treinamentos que melhorem a qualidade do ambiente de trabalho e o equilíbrio entre vida profissional e pessoal.
+* **Revisão Salarial para Cargos de Entrada:** Considerar uma revisão salarial para cargos como `Sales Representative`, garantindo que a remuneração seja competitiva e alinhada com o mercado, reduzindo o impacto financeiro na decisão de saída.
+* **Estratégias de Retenção no Primeiro Ano:** Focar em programas de acompanhamento e mentoria para os novos funcionários durante o primeiro ano, garantindo que eles se sintam valorizados e integrados à cultura da empresa.
 
 
 
