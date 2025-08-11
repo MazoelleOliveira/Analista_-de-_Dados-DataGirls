@@ -64,6 +64,23 @@ As consultas realizadas no SQL Server permitiram extrair os seguintes insights p
 
 * **Padrão Temporal de Saídas:** A análise do tempo de casa (`YearsAtCompany`) revelou que o **primeiro ano de empresa é o período mais crítico para a rotatividade**, com um número significativamente alto de saídas.
 
+### **Insights da Visualização de Dados**
+
+* **Gráfico: Impacto das Horas Extras na Rotatividade**
+    * **Insight:** A realização de horas extras (`OverTime`) está fortemente correlacionada com a rotatividade. Entre os funcionários que saíram (`Attrition: Yes`), uma proporção muito maior (53,59%) fazia horas extras do que entre os que ficaram (23,44%). Isso mostra que a sobrecarga de trabalho é um fator de risco significativo.
+
+* **Tabela: Tempo de Casa (`YearsAtCompany`)**
+    * **Insight:** A rotatividade é mais alta no primeiro ano de empresa. A maioria das saídas (59) ocorre com funcionários que têm apenas um ano na empresa, indicando que este é o período mais crítico para a retenção.
+
+* **Gráfico: Média de Salário (`MonthlyIncome`) por Cargo (`JobRole`) e Rotatividade**
+    * **Insight:** O salário tem um impacto diferente dependendo do cargo. Para cargos de entrada, como `Sales Representative`, a diferença salarial entre quem fica e quem sai é mais perceptível, sugerindo que o salário pode ser um fator determinante para a saída nesses cargos. Já para cargos de gerência (`Manager`), a média salarial é alta tanto para quem fica quanto para quem sai, o que indica que outros fatores podem estar influenciando a decisão.
+
+* **Gráfico: Média de Satisfação por Rotatividade**
+    * **Insight:** A satisfação no trabalho (`JobSatisfaction`) é um fator-chave. Os funcionários que saíram (`Attrition: Yes`) tinham, em média, um nível de satisfação menor (2,5) do que aqueles que permaneceram (2,8).
+
+* **Gráfico: Média de Equilíbrio de Vida por Rotatividade**
+    * **Insight:** O equilíbrio entre trabalho e vida pessoal (`WorkLifeBalance`) também afeta a decisão de sair. A média de equilíbrio é ligeiramente menor para os funcionários que saíram (2,7) do que para os que ficaram (2,8), reforçando a ideia de que a qualidade de vida no trabalho é importante.
+
 
 
 
