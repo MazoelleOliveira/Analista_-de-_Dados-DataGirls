@@ -66,6 +66,10 @@ As consultas realizadas no SQL Server permitiram extrair os seguintes insights p
 
 ### **Insights da Visualização de Dados**
 
+<img width="858" height="471" alt="image" src="https://github.com/user-attachments/assets/5e42dee3-8f12-475f-91f1-99e69d59edcb" />
+
+
+
 * **Gráfico: Impacto das Horas Extras na Rotatividade**
     * **Insight:** A realização de horas extras (`OverTime`) está fortemente correlacionada com a rotatividade. Entre os funcionários que saíram (`Attrition: Yes`), uma proporção muito maior (53,59%) fazia horas extras do que entre os que ficaram (23,44%). Isso mostra que a sobrecarga de trabalho é um fator de risco significativo.
 
