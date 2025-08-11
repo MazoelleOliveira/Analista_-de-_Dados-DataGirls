@@ -10,9 +10,9 @@ A análise foi desenvolvida com base no conjunto de dados **“IBM HR Analytics 
 * **Exploração de Dados:** Ferramentas como o Excel foram utilizadas para a leitura e exploração inicial dos dados.
 * **Dicionário de Dados:** Para uma melhor interpretação de cada variável, um dicionário de dados detalhado foi criado, servindo como guia durante toda a análise.
 * **Limpeza e Preparação de Dados:** Utilizei o SQL Server para a limpeza, preparação e análise exploratória dos dados.
-  Visualização de Dados
+* **Visualização de Dados**
 Para demonstrar os resultados das análises, utilizei o **Power BI**. Através de visuais como gráficos de barras, tabelas e KPIs, criei um dashboard que permite uma interpretação rápida e clara dos insights sobre a rotatividade.
-
+  
 <img width="850" height="56" alt="image" src="https://github.com/user-attachments/assets/a648540c-4f3b-4c35-b779-7b81cac8b8a4" />
 
 
